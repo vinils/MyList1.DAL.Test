@@ -13,4 +13,9 @@
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="$(SolutionDir)\MyList1.DAL\MyList.DAL\MyList.DAL.csproj" />
+    <ProjectReference Include="$(SolutionDir)\MyList1\MyList\MyList.csproj" />
+  </ItemGroup>
+
 </Project>
